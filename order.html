@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Корзина</title>
+    <link rel="stylesheet" href="pages/order.css">
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+</head>
+<body class="root">
+<header class="header">
+
+    <nav class="menu">
+        <div class="menu__wrapper">
+            <a href="index.html" class="menu__link">
+                <img src="images/logo.svg" alt="логотип магазин кофе">
+            </a>
+            <a href="about.html" class="menu__link">О компании</a>
+            <a href="catalog.html" class="menu__link">Каталог</a>
+            <a href="contacts.html" class="menu__link">Контакты</a>
+            <div class="menu__items">
+                <img src="images/emailLogo.svg" alt="значок почты">
+                <p class="header__text">info@cofeeshop.ru</p>
+            </div>
+            <div class="menu__items">
+                <img src="images/phoneLogo.svg" alt="значок телефона">
+                <p class="header__text">+7 (999) 999 99 99</p>
+            </div>
+        </div>
+    </nav>
+</header>
+<main class="content order__background">
+
+        <form class="order" >
+            <h2 class="order__text">Форма заказа</h2>
+                <input type="text" class="order__input" required placeholder="Имя"/>
+                <input type="text" class="order__input" required placeholder="Фамилия">
+                <input type="tel" class="order__input" required placeholder="Номер телефона">
+                <input type="email" class="order__input" required placeholder="Email">
+
+            <p class="order__text">Выберите товар</p>
+            <select name="coffee" class="order__select">
+                <option>Бразильский Бурбон Сантос</option>
+                <option>Медельин</option>
+                <option>Далат</option>
+                <option>Мокко Сидамо</option>
+                <option>Декаф</option>
+                <option>Арабика</option>
+                <option>Робуста</option>
+                <option>Либерика</option>
+                <option>Эксцельса</option>
+                <option>Гейзерная кофеварка</option>
+                <option>Пуровер</option>
+                <option>Турка</option>
+                <option>Кемекс</option>
+            </select>
+            <button type="submit"  id="order-button" class="order__button">Отправить заказ</button>
+        </form>
+
+
+</main>
+<footer class="footer">
+    <nav class="menu">
+        <div class="menu__wrapper">
+            <a href="index.html" class="menu__link">
+                <img src="images/logo.svg" alt="логотип магазин кофе">
+            </a>
+            <a href="catalog.html" class="menu__link">Каталог товаров</a>
+            <div class="menu__items">
+
+                <img src="images/phoneLogo.svg" alt="значок телефона">
+
+                <p class="footer__text">+7 (999) 999 99 99</p>
+            </div>
+            <div class="menu__items">
+
+                <img src="images/emailLogo.svg" alt="значок почты">
+
+                <p class="footer__text">info@coffeeshop.ru</p>
+            </div>
+            <div class="menu__items">
+                <img src="images/place.svg" alt="значок места">
+                <a href="contacts.html" class="menu__link">Адрес магазина</a>
+            </div>
+        </div>
+    </nav>
+</footer>
+<script>
+    const form=document.querySelector(".order");
+    form.onsubmit=sendOrder;
+    function sendOrder(event) {
+        event.preventDefault();
+        const orderButton=document.querySelector("#order-button");
+        orderButton.textContent="Заказ отправлен";
+        orderButton.disabled=true;
+    }
+</script>
+</body>
+</html>

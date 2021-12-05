@@ -1,0 +1,17 @@
+.about__img{
+    height: 486px;
+    margin: 40px auto 40px auto;
+
+}
+@media screen and (max-width:800px){
+    .about__img{
+        width: 600px;
+
+    }
+}
+@media screen and (max-width:630px){
+    .about__img{
+        width: 400px;
+
+    }
+}

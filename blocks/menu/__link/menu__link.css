@@ -1,0 +1,8 @@
+.menu__link {
+    text-decoration: none;
+    color: #FFC94F;
+    margin-right: 43px;
+}
+.menu__link:hover{
+    color:black;
+}

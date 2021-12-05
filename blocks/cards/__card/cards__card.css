@@ -1,0 +1,7 @@
+.cards__card{
+    width: 250px;
+    font-size: 17px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    cursor: pointer;
+}

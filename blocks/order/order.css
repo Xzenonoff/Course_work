@@ -1,0 +1,11 @@
+.order{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background: #FFFFFF;
+    border-radius: 10px;
+    height: 550px;
+    width: 400px;
+}

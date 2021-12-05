@@ -1,0 +1,12 @@
+.index__link{
+    text-decoration: none;
+    color: #FFC94F;
+    font-size: 20px;
+    background-color: saddlebrown;
+    margin-bottom: 10px;
+    padding: 10px;
+
+}
+.index__link:hover{
+    color:black;
+}

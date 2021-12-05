@@ -1,0 +1,16 @@
+@import url(../blocks/root/root.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/menu/menu.css);
+@import url(../blocks/menu/__link/menu__link.css);
+@import url(../blocks/header/__text/header__text.css);
+@import url(../blocks/menu/__wrapper/menu__wrapper.css);
+@import url(../blocks/menu/__items/menu__items.css);
+@import url(../blocks/content/content.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__text/footer__text.css);
+@import url(../blocks/order/order.css);
+@import url(../blocks/order/__input/order__input.css);
+@import url(../blocks/order/__select/order__select.css);
+@import url(../blocks/order/__text/order__text.css);
+@import url(../blocks/order/__button/order__button.css);
+@import url(../blocks/order/__background/order__background.css);

@@ -1,0 +1,17 @@
+.content{
+    max-width: 1440px;
+    background: #FFFFFF;
+    display: flex;
+    margin: auto;
+    height: 100vh;
+}
+.main-title {
+    height: auto;
+}
+
+@media screen and (max-width:600px){
+    .content{
+        height: auto;
+    }
+
+}

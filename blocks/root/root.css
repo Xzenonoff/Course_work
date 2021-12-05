@@ -1,0 +1,8 @@
+.root {
+    font-family: Montserrat, sans-serif;
+    background:#f3f3f3;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}

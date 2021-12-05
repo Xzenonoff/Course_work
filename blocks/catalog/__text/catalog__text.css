@@ -1,0 +1,11 @@
+.catalog__text{
+    color: #535353;
+    max-width: 1258px;
+    line-height: 24px;
+    letter-spacing: 0em;
+}
+.main {
+    width: 80%;
+    float: left;
+    padding: 0 30px 30px 30px;
+}
